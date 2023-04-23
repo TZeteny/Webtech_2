@@ -1,0 +1,13 @@
+<div class="content-box" *ngIf="!isLoading">
+    <p>This page has been viewed {{listing.views}} times, hurry before someone else snatches it!</p>
+    <a routerLink="/listings">
+        <button>Back</button>
+    </a>
+    <h2>{{ listing.name }}</h2>
+    <p>{{ listing.description }}</p>
+    <p>€{{ listing.price }}</p>
+    <button (click)="onDeleteClicked(listing.id)">Delete</button>
+</div>
+<div class="content-box" *ngIf="isLoading">
+    <h2>Loading...</h2>
+</div>
