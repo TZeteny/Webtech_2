@@ -1,21 +1,21 @@
 import { Listing } from "./types";
 
 export const fakeListings: Listing[] = [{
-    id: '123',
-    name: 'Old Boat',
-    description: 'A very old boat. Bargain price',
-    price: 700,
+    id: '111',
+    name: 'Sabre',
+    description: 'Choppy boy',
+    price: 200,
     views: 0,
 }, {
-    id: '345',
-    name: 'Computer',
-    description: 'From the 1990s, a classic!',
-    price: 50,
+    id: '222',
+    name: 'Falmberge',
+    description: 'Mint condition',
+    price: 500,
     views: 0,
 }, {
-    id: '456',
-    name: 'Basketball Hoop',
-    description: 'Good condition, free delivery',
+    id: '333',
+    name: 'Rapier',
+    description: 'Stabby',
     price: 100,
     views: 0,
 }];
